@@ -7,4 +7,26 @@ I liked the traffic lights assignment and afterwards i did my own **police light
 ### What was hard
 I couldn't understand the maths or physics behind the resistors much because I'm just really bad at maths and physics in general, so this will be a **continuous** problem for me. 
 
-https://github.com/user-attachments/assets/a15b494e-7584-4a3b-a184-f701f742b4ab
+## Video
+https://github.com/user-attachments/assets/8520e07e-e883-4431-93b0-c862503a57bd
+
+
+## Code
+const int polred = 11;
+const int polblue = 10;
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(polred, OUTPUT);
+pinMode(polblue, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(polred, HIGH);
+  delay(300);
+  digitalWrite(polred, LOW);
+  digitalWrite(polblue, HIGH);
+  delay(300);
+  digitalWrite(polblue, LOW);
+}
