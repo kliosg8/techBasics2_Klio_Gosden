@@ -10,23 +10,3 @@ I couldn't understand the maths or physics behind the resistors much because I'm
 ## Video
 https://github.com/user-attachments/assets/8520e07e-e883-4431-93b0-c862503a57bd
 
-
-## Code
-const int polred = 11;
-const int polblue = 10;
-
-void setup() {
-  // put your setup code here, to run once:
-pinMode(polred, OUTPUT);
-pinMode(polblue, OUTPUT);
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  digitalWrite(polred, HIGH);
-  delay(300);
-  digitalWrite(polred, LOW);
-  digitalWrite(polblue, HIGH);
-  delay(300);
-  digitalWrite(polblue, LOW);
-}
