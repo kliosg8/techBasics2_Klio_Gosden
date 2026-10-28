@@ -1,5 +1,5 @@
 ### What i learned
-- To connect the *Ground*  cable and the *Power* cable to the **SIDES** of the potentiometer and the Signal cable to the middle one.
+- To connect the *Ground*  cable and the *Power* cable to the **SIDES** of the potentiometer and the *Signal* cable to the middle one.
 - If the potentiometer starts smelling something is wrong.
 - analogRead
 
