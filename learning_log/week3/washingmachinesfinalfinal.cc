@@ -18,3 +18,9 @@ void loop() {
   else{ //if sensor reading is more than threshold
   digitalWrite(led, LOW); //turn led off
   }
+if(sensor<threshold) { //if sensor reading is less than threshold
+    digitalWrite(led, HIGH); //turn led on
+  }
+  else{ //if sensor reading is more than threshold
+  digitalWrite(led, LOW); //turn led off
+  }
